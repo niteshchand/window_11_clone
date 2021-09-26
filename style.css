@@ -1,0 +1,444 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.content {
+    height: 1600px ;
+    width: 2560px;
+}
+.background-body {
+    background-image: url(./images/BG.jpeg);
+    height: 58%;
+    width: 60%;
+    background-size: 100%;
+    margin-top: -56px;
+}
+.background-footer {
+    height: 51px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 661px;
+    width: 100%;
+    background-color: #D7D9CB;
+}
+.start {
+    background-image: url(./images/icons8-windows-11-48.png);
+    background-size: 100%;
+    height: 48px;
+    width: 46px;
+    background-repeat: no-repeat;
+    border: 7px solid #D7D9CB;  
+}
+.start:hover {
+    background-color:#DFEAFC;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.search {
+    background-image: url(./images/search.png);
+    background-size: 100%;
+    height: 48px;
+    width: 46px;
+    background-repeat: no-repeat;  
+    border: 7px solid #D7D9CB;
+}
+.search:hover {
+    background-color:#DFEAFC;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.file:hover {
+    background-color:#DFEAFC;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.file 
+{
+    background-image: url(./images/file-explorer.png);
+    background-size: 100%;
+    height: 48px;
+    width:52px;
+    background-repeat: no-repeat;  
+    border: 7px solid #D7D9CB;
+}
+.edge:hover {
+    background-color:#DFEAFC;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.edge 
+{
+    background-image: url(./images/edge.png);
+    background-size: 100%;
+    height: 48px;
+    width:46px;
+    background-repeat: no-repeat;
+    border: 7px solid #D7D9CB;
+}
+.vscode:hover {
+    background-color:#DFEAFC;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.vscode 
+{
+    background-image: url(./images/vscode.png);
+    background-size: 100%;
+    height: 48px;
+    width:46px;
+    background-repeat: no-repeat;   
+    border: 7px solid #D7D9CB;
+}
+.calculator:hover, .office:hover , .notepad:hover , .microsft-ege:hover,.mail:hover, .calender:hover,.tips:hover,.settings:hover,.xobox:hover,.photos:hover,.filexplore:hover {
+    transform: scale(1.2);
+    
+}
+.cmd:hover,.mongodb:hover,.node:hover,.git:hover,.githbash:hover,.teams:hover {
+    opacity: 0.7;
+}
+.shutdown:hover {
+    transform: scale(1.2);
+}
+.recyle:hover,.edge-des:hover,.vscode-des:hover{
+    transform: scale(1.1);
+}
+.recyle {
+    position: absolute;
+    background-image: url(./images/recyclebinicon.png);
+    background-size: 100%;
+    height: 67px;
+    width: 70px;
+    margin-left: 11px;
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    /* border: 7px solid #D7D9CB;*/
+}
+.text1{
+    margin-top: 160px;
+    margin-left: 12px;
+    position: absolute;
+    width: 76px;
+}
+.edge-des {
+    position: absolute;
+    background-image: url(./images/edge.png);
+    background-size: 83%;
+    height: 67px;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 185px;
+    background-repeat: no-repeat;
+}
+.text2 {
+    margin-top: 250px;
+    margin-left: 14px;
+    position: absolute;
+    width: 76px;
+}
+.text3 {
+    margin-top: 349px;
+    margin-left: 15px;
+    position: absolute;
+    width: 85px;
+}
+.vscode-des {
+    position: absolute;
+    background-image: url(./images/vscode.png);
+    background-size: 83%;
+    height: 67px;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 284px;
+    background-repeat: no-repeat;
+}
+.main-task {
+    /* align-items: center;
+    justify-content: center;
+    margin-left: 601px; */
+    /* margin-top: 0px; */
+    /* height: 38px; */
+}
+.task-center {
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 601px;  */
+    
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    position: absolute;
+    margin-left: 1173px;
+    width: 24%;
+    height: 52px;
+    
+}
+
+.startmenu {
+    position: absolute;
+    background-color: #DFEAFC;
+    /* background-color: red; */
+    height: 75%;
+    /* margin-top: 8%; */
+    top: 135px;
+    margin-left: 30%;
+    width: 40%;
+    margin-right: auto;
+    border: 1px;
+    border-radius: 10px;
+}
+.pinned {
+    /* background-color: red; */
+    height: 44%;
+    width: 82%;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+.button-pin {
+    margin-left: 384px;
+    border: 1px;
+    height: 21px;
+    width: 74px;
+}
+.recommeded {
+    height: 39%;
+    width: 89%;
+    /* margin-top: 4%; */
+    margin-left: 10%;
+}
+.button-rec {
+    margin-left: 346px;
+    border: 1px;
+    height: 21px;
+    width: 74px;
+}
+.background-icon {
+    height: 78px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 57px;
+    width: 6%;
+}
+.microsft-ege {
+    position: absolute;
+    background-image: url(./images/microsoft-edge.png);
+    background-size: 64%;
+    height: 67px;
+    width: 70px;
+    margin-left: -13px;
+    margin-top: 4px;
+    background-repeat: no-repeat;
+}
+.mail {
+    position: absolute;
+    background-image: url(./images/mail.png);
+    background-size: 66%;
+    height: 67px;
+    width: 70px;
+    margin-left: 79px;
+    margin-top: 4px;
+    background-repeat: no-repeat;
+}.calender {
+    position: absolute;
+    background-image: url(./images/calender.png);
+    background-size: 64%;
+    height: 67px;
+    width: 70px;
+    margin-left: 173px;
+    margin-top: 4px;
+    background-repeat: no-repeat;
+}.photos {
+    position: absolute;
+    background-image: url(./images/gallery.png);
+    background-size: 59%;
+    height: 67px;
+    width: 70px;
+    margin-left: 272px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+}.xobox {
+    position: absolute;
+    background-image: url(./images/xbox.png);
+    background-size: 59%;
+    height: 67px;
+    width: 70px;
+    margin-left: 360px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+}.settings {
+    position: absolute;
+    background-image: url(./images/settings.png);
+    background-size: 62%;
+    height: 67px;
+    width: 70px;
+    margin-left: 443px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+}
+.office {
+    position: absolute;
+    background-image: url(./images/microsoft-office.png);
+    background-size: 61%;
+    height: 67px;
+    width: 70px;
+    margin-left: -13px;
+    margin-top: 99px;
+    background-repeat: no-repeat;
+}
+.calculator {
+    position: absolute;
+    background-image: url(./images/calculator.png);
+    background-size: 50%;
+    height: 67px;
+    width: 70px;
+    margin-left: 79px;
+    margin-top: 104px;
+    background-repeat: no-repeat;
+}
+.notepad {
+    position: absolute;
+    background-image: url(./images/Notepad.png);
+    background-size: 58%;
+    height: 67px;
+    width: 70px;
+    margin-left: 173px;
+    margin-top: 101px;
+    background-repeat: no-repeat;
+}
+.filexplore {
+    position: absolute;
+    background-image: url(./images/file-explorer.png);
+    background-size: 65%;
+    height: 67px;
+    width: 70px;
+    margin-left: 272px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+}
+.tips {
+    position: absolute;
+    background-image: url(./images/tips.png);
+    background-size: 63%;
+    height: 67px;
+    width: 70px;
+    margin-left: 360px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+}
+.text-setting {
+    width: 109px;
+    height: 100px;
+}
+
+.cmd {
+    position: absolute;
+    background-image: url(./images/cmd.png);
+    background-size: 11%;
+    height: 15%;
+    width: 45%;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+}
+.mongodb {
+    position: absolute;
+    background-image: url(./images/mongodb.png);
+    background-size: 11%;
+    height: 15%;
+    width: 45%;
+    margin-left: 310px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+}
+.git {
+    position: absolute;
+    background-image: url(./images/github.png);
+    background-size: 11%;
+    height: 15%;
+    width: 45%;
+    margin-left: 0px;
+    margin-top: 55px;
+    background-repeat: no-repeat;
+}
+.node {
+    position: absolute;
+    background-image: url(./images/nodejs.png);
+    background-size: 11%;
+    height: 15%;
+    width: 45%;
+    margin-left: 310px;
+    margin-top: 55px;
+    background-repeat: no-repeat;
+}
+
+.teams {
+    position: absolute;
+    background-image: url(./images/teams.png);
+    background-size: 11%;
+    height: 15%;
+    width: 45%;
+    margin-left: 0px;
+    margin-top: 110px;
+    background-repeat: no-repeat;
+}
+.githbash {
+    position: absolute;
+    background-image: url(./images/git.png);
+    background-size: 11%;
+    height: 15%;
+    width: 45%;
+    margin-left: 310px;
+    margin-top: 110px;
+    background-repeat: no-repeat;
+}
+
+.aligment {
+    margin-left: 35px;
+    margin-top: 5px;
+    font-size: 10px;
+}
+.login-info 
+{
+    position: absolute;
+    background-color: #D7D9CB;
+    height: 10%;
+    width: 100%;
+}
+.user {
+    position: absolute;
+    background-image: url(./images/user.png);
+    background-size: 100%;
+    height: 69%;
+    /* background-color: red; */
+    width: 6%;
+    margin-left: 10%;
+    margin-top: 6px;
+    border: 1px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+}
+
+.shutdown {
+    position: absolute;
+    background-image: url(./images/power-off.png);
+    background-size: 84%;
+    height: 69%;
+    /* background-color: red; */
+    width: 6%;
+    margin-left: 84%;
+    margin-top: 8px;
+    border: 1px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+}
+.user-info {
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 17%;
+
+}
